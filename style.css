@@ -1,7 +1,3 @@
-* {
-    outline: 1px solid red;
-}
-
 body {
     margin: 0; 
 }
@@ -20,12 +16,12 @@ nav a {
     color: white;
     height: 40px;
     text-align: center;
-    padding-top: px;
+    padding-top: 2px;
 }
 
 .main-image {
     height: 500px;
-    background: red;
+    width: 100%;
 }
 
 .main-image {
@@ -40,15 +36,18 @@ nav a {
  .product-categories div {
     display: inline-block;
     height: 100px;
+    width: 180px;
 }
 
 .service-cards div {
     display: inline-block;
     width: 24%;
+    margin-left: 10px;
 }
 
 .service-cards div img {
     width: 100%;
     height: 200px;
+    
 }
 
